@@ -1,10 +1,17 @@
 ---
 layout: default
-title: Home
 ---
+<h1>{{ site.title }}</h1>
+<p class="tagline">{{ site.description }}</p>
 
-# Mohamed Mohy Blog
-
+<ul class="post-list">
 {% for post in site.posts %}
-- **[{{ post.title }}]({{ post.url | relative_url }})** — {{ post.date | date: "%B %d, %Y" }}
+  <li>
+    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.description %}
+    <br><span class="post-desc">{{ post.description }}</span>
+    {% endif %}
+  </li>
 {% endfor %}
+</ul>

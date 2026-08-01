@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Get Better Results from LLMs: 3 Practical Tips"
+title: "How to Get Better Results from LLMs:  3 Practical Tips"
 date: 2026-07-30
 description: "3 practical tips to get more consistent, higher-quality results from LLMs"
 ---

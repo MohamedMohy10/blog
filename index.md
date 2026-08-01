@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<h1>{{ site.title }}</h1>
 <p class="tagline">{{ site.description }}</p>
 
 <ul class="post-list">

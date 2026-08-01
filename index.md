@@ -15,5 +15,3 @@ layout: default
 {% endfor %}
 </ul>
 
-
-

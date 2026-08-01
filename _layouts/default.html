@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,6 +13,17 @@
       color: #222;
       line-height: 1.6;
     }
+    header {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+    }
+    header a.site-title {
+      font-size: 1.3em;
+      font-weight: 600;
+      color: #222;
+      text-decoration: none;
+    }
     h1 { font-size: 1.6em; margin-bottom: 5px; }
     .tagline { color: #666; margin-top: 0; margin-bottom: 30px; }
     .post-list { list-style: none; padding: 0; }
@@ -26,6 +37,9 @@
   </style>
 </head>
 <body>
+  <header>
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  </header>
   {{ content }}
 </body>
 </html>

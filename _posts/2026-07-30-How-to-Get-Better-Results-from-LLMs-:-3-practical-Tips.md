@@ -2,6 +2,7 @@
 layout: post
 title: "How to Get Better Results from LLMs: 3 Practical Tips"
 date: 2026-08-01
+description: "3 practical tips to get more consistent, higher-quality results from LLMs"
 ---
 
 If you are still struggling in getting satisfying results from LLMs for your work .. things are not done perfectly or not exactly the way you wanted .. you should know that one of the most important skills for getting better results from these models is prompt engineering (or, more broadly, learning how to provide the right context and instructions). 

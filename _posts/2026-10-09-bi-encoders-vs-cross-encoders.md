@@ -2,6 +2,7 @@
 layout: post
 title: "Bi-Encoders vs Cross-Encoders: Why Retrieve + Rerank Works"
 date: 2026-10-09
+description: "Understanding bi-encoders, cross-encoders, and reranking and why combining them can significantly improve search and RAG quality"
 ---
 
 If your RAG / semantic search results feel "almost right but not quite as I expected" .. you probably suspect the embedding model, like many people do. But often the problem isn't the model, it's that your pipeline needs an extra step beyond basic semantic search. 

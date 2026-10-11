@@ -66,6 +66,7 @@ So conceptually, you have three approaches:
 
 ## My takeaway
 
+You do not always need to replace your embedding model to improve retrieval quality. 
 Don't try to make one model do everything. Use a cheap model to narrow down millions of documents to a few dozen, then a precise model to rank those few.
 
 In many cases, adding a reranking step gives a bigger quality win than switching to a different embedding model. So next time your retrieval results feel "almost right", before swapping embedding models, try adding a reranker first.

@@ -7,7 +7,7 @@ date: 2026-10-09
 If your RAG / semantic search results feel "almost right but not quite as I expected" .. you probably suspect the embedding model, like many people do. But often the problem isn't the model, it's that your pipeline needs an extra step beyond basic semantic search. 
 In this post I explain what that step is, why it works, and why it's so widely used now in production systems.
 
-<img src="https://github.com/user-attachments/assets/acbdc8d5-8022-44db-b4b1-91732ccb2cbb" />
+<img src="https://github.com/user-attachments/assets/84784fda-e623-4a39-8a7d-1945617ae99b" />
 
 
 ## 1. Bi-encoders: fast, but they never let the query and document "see" each other
